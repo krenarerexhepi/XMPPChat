@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XMPPChatXamarin.XMPPChatXamarin">
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21" />
+  <application android:label="XMPPChatXamarin" android:name="mono.android.app.Application">
+    <activity android:label="XMPPChatXamarin" android:name="md546a0ae7f2367beab729a12a1730015a3.MainActivity" />
+    <activity android:icon="@drawable/icon" android:label="LogInActivity" android:name="md546a0ae7f2367beab729a12a1730015a3.LogInActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="RegisterActivity" android:name="md546a0ae7f2367beab729a12a1730015a3.RegisterActivity" />
+    <activity android:label="MainFormActivity" android:name="md546a0ae7f2367beab729a12a1730015a3.MainFormActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="XMPPChatXamarin.XMPPChatXamarin.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

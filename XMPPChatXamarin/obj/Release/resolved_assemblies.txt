@@ -1,0 +1,8 @@
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\XMPPChatXamarin.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\Matrix.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\Mono.Android.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\mscorlib.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\System.Core.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\System.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\System.Xml.dll
+C:\Users\HP\Documents\Projects\XMPPChatXamarin\XMPPChatXamarin\obj\Release\android\assets\System.Xml.Linq.dll

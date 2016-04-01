@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right">
+    <Button
+        android:text="Log out"
+        android:layout_width="108.2dp"
+        android:layout_height="37.3dp"
+        android:id="@+id/btnLogOut"
+        android:onClick="btnLogOut_Click"
+        android:layout_marginLeft="230dp" />
+    <EditText
+        android:layout_width="387.2dp"
+        android:layout_height="37.3dp"
+        android:layout_marginRight="252.1dp"
+        android:enabled="false"
+        android:text="Change status"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="0.0dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="37.3dp"
+        android:id="@+id/spinner1"
+        android:layout_marginTop="0.0dp" />
+    <EditText
+        android:layout_width="382.5dp"
+        android:layout_height="37.2dp"
+        android:id="@+id/edtStatus"
+        android:layout_marginRight="252.1dp"
+        android:hint="add status text" />
+    <Button
+        android:text="Save "
+        android:layout_width="match_parent"
+        android:layout_height="38.6dp"
+        android:id="@+id/btnSaveStatus"
+        android:onClick="btnSaveStatus_Click" />
+    <EditText
+        android:layout_width="381.6dp"
+        android:layout_height="37.8dp"
+        android:layout_marginRight="252.1dp"
+        android:enabled="false"
+        android:text="Add contact"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="0.0dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="37.4dp"
+        android:id="@+id/edtAddContact"
+        android:hint="username" />
+    <Button
+        android:text="Add Contact"
+        android:layout_width="match_parent"
+        android:layout_height="36.7dp"
+        android:id="@+id/btnAddContact"
+        android:onClick="addContact_click" />
+    <EditText
+        android:layout_width="381.6dp"
+        android:layout_height="37.3dp"
+        android:layout_marginRight="252.1dp"
+        android:enabled="false"
+        android:text="Send message"
+        android:id="@+id/editText3"
+        android:layout_marginLeft="0.0dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendMessageToUser"
+        android:hint="username" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsendmessage"
+        android:hint="message" />
+    <Button
+        android:text="Send message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendMessage"
+        android:onClick="send_message_Click" />
+</LinearLayout>

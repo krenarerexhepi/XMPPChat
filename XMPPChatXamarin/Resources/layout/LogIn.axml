@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:noHistory="true">
+        <EditText
+            android:layout_marginTop="@dimen/layout_margin_top_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUsername"
+            android:hint="@string/username"
+            android:singleLine="true"
+            android:background="@android:drawable/@android:color/transparent"
+            android:drawableStart="@drawable/account"
+            android:drawablePadding="@dimen/drawable_start_padding" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPassword"
+            android:hint="@string/password"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:background="@android:drawable/@android:color/transparent"
+            android:drawableStart="@drawable/accountkey"
+            android:drawablePadding="@dimen/drawable_start_padding" />
+        <Button
+            android:text="@string/log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="@dimen/button_height"
+            android:id="@+id/btnLogIn"
+            android:onClick="btnLogIn_Click" />
+        <Button
+            android:text="@string/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="@dimen/button_height"
+            android:id="@+id/btnRegister"
+            android:onClick="btnRegister_Click" />
+    </LinearLayout>
+</ScrollView>

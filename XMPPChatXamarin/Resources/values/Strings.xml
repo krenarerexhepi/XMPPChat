@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">XMPPChatXamarin</string>
+	<string name="username_required">Username is required</string>
+	<string name="password_required">Password is required</string>
+	<string name="full_name">Full name</string>
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="register">Sign Up</string>	
+	<string name="log_in">Log in</string>
+	<string name="server_no_connection">Server is not accessible. Check your connection and try again.</string>
+	<string name ="server_no_accessible">Server is not accessible. Unhandled error.</string>
+	<string name="not_registered">Not registered.</string>
+	<string name="error_registration">Error registration</string>
+	<string name="registration_in_system">Registering you on system.</string>
+	<string name="please_wait">Please wait !</string>
+	<string name="error_registration_username">This username exist !!</string>
+	<string name="error_logIn_username">Username or password is incorect !!</string>
+	<string name="register_title">Register data</string>
+	<string name="main_title">Main form </string>
+	<string name="status_online">I am online</string>
+	<string name="status_busy">I am busy</string>
+	<string name="status_onphone">I am on phone</string>
+	<string name="status_away">I am away</string>
+	<string name="set_status_online">Online</string>
+	<string name="set_status_busy">Busy</string>
+	<string name="set_status_onphone">Phone</string>
+	<string name="set_status_away">Away</string>
+	<string name="set_status_invi">Invisible</string>
+	<string name="not_autorized">not_authorized</string>
+	<string name="login_in_system">Log in you on system.</string>
+	<string name="on_error">On error:</string>
+	<string name="tab1_text">Contacts</string>
+	<string name="error_time_out">Server is not visible. Check host name.</string>
+	<string name="conflict">Conflict</string>
+	<string name="First_tab_name">Chat</string>
+	<string name="Second_tab_name">Contacts</string>
+	<string name="Third_tab_name">Profile</string>
+	<string name="Message_from">Message from: </string>
+	<string name="Added_contact_success">Contact added sucessfuly !! </string>
+</resources>

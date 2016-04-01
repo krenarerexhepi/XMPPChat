@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:nestedScrollingEnabled="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:noHistory="true">
+        <EditText
+            android:layout_marginTop="@dimen/layout_margin_top_register"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName"
+            android:drawableStart="@drawable/fullname"
+            android:drawablePadding="@dimen/drawable_start_padding"
+            android:layout_marginStart="@dimen/registration_padding_start"
+            android:hint="@string/full_name"
+            android:singleLine="true"
+            android:background="@android:drawable/@android:color/transparent" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtusername"
+            android:hint="@string/username"
+            android:drawableStart="@drawable/account"
+            android:drawablePadding="@dimen/drawable_start_padding"
+            android:layout_marginStart="@dimen/registration_padding_start"
+            android:singleLine="true"
+            android:background="@android:drawable/@android:color/transparent" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/txtPassword"
+            android:hint="@string/password"
+            android:drawableStart="@drawable/accountkey"
+            android:drawablePadding="@dimen/drawable_start_padding"
+            android:layout_marginStart="@dimen/registration_padding_start"
+            android:password="true"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:background="@android:drawable/@android:color/transparent" />
+        <Button
+            android:text="@string/register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/btnRegister"
+            android:onClick="btnRegister_Click" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="162.5dp"
+        android:layout_height="45.1dp"
+        android:id="@+id/edtsendmessage"
+        android:hint="message"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:text="Send message"
+        android:layout_width="149.1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendMessage"
+        android:onClick="send_message_Click"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

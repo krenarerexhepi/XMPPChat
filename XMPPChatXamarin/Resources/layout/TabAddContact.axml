@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:layout_width="381.6dp"
+        android:layout_height="37.8dp"
+        android:enabled="false"
+        android:text="Add contact"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/@android:color/transparent" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="37.4dp"
+        android:id="@+id/edtAddContactTab"
+        android:hint="username" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="37.4dp"
+        android:id="@+id/edtNockName"
+        android:hint="nickname" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="37.4dp"
+        android:id="@+id/edtGroup"
+        android:hint="group" />
+    <Button
+        android:text="Add Contact"
+        android:layout_width="match_parent"
+        android:layout_height="36.7dp"
+        android:id="@+id/btnAddContactTab"
+        android:onClick="addContact_click" />
+</LinearLayout>
