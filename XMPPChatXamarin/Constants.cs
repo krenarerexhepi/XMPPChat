@@ -14,19 +14,12 @@ namespace XMPPChatXamarin
 	{
 		private XmppClient xmppClient = new XmppClient ();
 			
-		string lic = @"eJxkkN1S8jAQhm/F8ZTRtCBSvlkziq1YqXwFVNSztAk1tE3SNEHK1YuK/yc7
-							u/vsu/vOQsRTJmq2ty4LUZ/sk+yglgvzTDT7V7yjfQyxltSmJqR4ZizlEtBX
-							ByaWCMNNg11Anzmc29rIkmkMY1IyHKxIYYmRGtBbDeeyVEQ0H4BLsbezAuiD
-							QVASXuCaFKw+/ebskG6H3tl2+PPQraLEsGCtuGb+NsNtxz12+h0H0B8EYe2z
-							UmKj7XbXroDX+FPfdZ1X/S8AM54JYqxmWE+y0dQPGvPYjprqtkVokA28qDtY
-							5Nc5rdxq0BN0apNh2L+h+VF63/zfDFUlSCdZPqjkqBdOmrbbWcTV8arXnyuG
-							nMvrBGV+JB5IMmpGy3ncUn6MuF1x6rpDfkOj6YV3gar0afx8piLZImoT5LOr
-							sJ3n2gvX94N4nvpP/thbN+OlXmy6hE7uvPoE0JdvQLt34xcB";
+		string lic = @"";
 		
 		private static string domainName = "krenare-pc";
 		//private static string hostName = "Krenare-PC";
 
-		private static string hostName = "192.168.0.110";
+		private static string hostName = "";
 		//private static string hostName = "192.168.0.105";
 		private static int port = 5222;
 
